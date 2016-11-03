@@ -1,0 +1,32 @@
+{
+    "name": "ntholenaar/laravel-multisafepay-client",
+    "type": "library",
+    "description": "Laravel bridge for the ntholenaar/multisafepay-client package.",
+    "keywords": [
+        "multisafepay",
+        "client",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels Tholenaar",
+            "email": "info@123quality.nl",
+            "homepage": "http://123quality.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ntholenaar\\LaravelMultiSafepayClient\\" : "src/"
+        }
+    },
+    "require": {
+        "ntholenaar/multisafepay-client": "^0.2",
+        "illuminate/contracts": "5.2.*|5.3.*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/phpunit": "^5.5"
+    },
+    "minimum-stability": "stable"
+}
