@@ -47,6 +47,6 @@ class MultiSafepayClientServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['nielstholenaar.multisafepay-client'];
+        return ['ntholenaar.multisafepay-client'];
     }
 }
