@@ -1,4 +1,4 @@
-# Laravel bridge package for the MutliSafepay Client.
+# Laravel bridge package for the MultiSafepay Client.
 
 ## Requirements
 
@@ -15,10 +15,16 @@ You can use `composer require` to add the client to your `composer.json` file.
 $ composer require ntholenaar/laravel-multisafepay-client
 ```
 
-Add the service provider to the service provider array within `config/app.php`.
+Add the service provider to the service providers array within the `config/app.php` file.
 
 ```
 \Ntholenaar\LaravelMultiSafepayClient\Providers\MultiSafepayClientServiceProvider::class,
+```
+
+Add the Facade to the alias array within the `config/app.php` file.
+
+```
+'MultiSafepayClient' => Ntholenaar\LaravelMultiSafepayClient\Facades\MultiSafepayClient::class,
 ```
 
 Publish the package configuration
@@ -26,6 +32,10 @@ Publish the package configuration
 ```
 $ php artisan vendor:publish
 ```
+
+## Usage
+
+For information about how to use this package see the main repository: https://github.com/nielstholenaar/multisafepay-client.
 
 ## Credits
 

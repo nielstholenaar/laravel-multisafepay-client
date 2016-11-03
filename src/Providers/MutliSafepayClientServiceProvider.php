@@ -21,7 +21,7 @@ class MultiSafepayClientServiceProvider extends ServiceProvider
     {
         $this->publishes(
             [
-                '/../../config/multisafepay-client.php' => config_path('multisafepay-client.php'),
+                __DIR__ . '/../../config/multisafepay-client.php' => config_path('multisafepay-client.php'),
             ]
         );
     }
