@@ -35,7 +35,19 @@ class MultiSafepayClientServiceProvider extends ServiceProvider
     {
         $this->app->bind('ntholenaar.multisafepay-client', function ($app) {
             $client = new Client();
-            $client->setApiKey($app['config']['multisafepay-client.api_key']);
+
+            $environment = config('multisafepay-client.default_environment', 'production');
+
+            if ($environment !== 'production' && $environment !== 'test') {
+                $environment = 'production';
+            }
+
+            $client->environment($environment);
+
+            $apiKey = config('multisafepay-client.environments.' . $environment . '.api_key', '');
+
+            $client->setApiKey($apiKey);
+
             return $client;
         });
     }
