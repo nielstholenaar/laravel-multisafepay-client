@@ -33,7 +33,7 @@ class MultiSafepayClientServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('ntholenaar.multisafepay-client', function ($app) {
+        $this->app->bind('ntholenaar.multisafepay-client', function () {
             $client = new Client();
 
             $environment = config('multisafepay-client.default_environment', 'production');
