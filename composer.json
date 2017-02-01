@@ -22,7 +22,7 @@
     },
     "require": {
         "ntholenaar/multisafepay-client": "^0.2",
-        "illuminate/contracts": "5.2.*|5.3.*"
+        "illuminate/contracts": "5.2.*|5.3.*|5.4.*"
     },
     "require-dev": {
         "php-http/guzzle6-adapter": "^1.1.1",
