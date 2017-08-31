@@ -19,6 +19,8 @@ You can use `composer require` to add the client to your `composer.json` file.
 $ composer require ntholenaar/laravel-multisafepay-client
 ```
 
+**When using Laravel 5.5 the service provider and facade are automatic registered.**
+
 Add the service provider to the service providers array within the `config/app.php` file.
 
 ```
