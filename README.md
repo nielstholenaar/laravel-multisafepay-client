@@ -46,6 +46,7 @@ For information about how to use this package see the main repository: https://g
 ## Credits
 
 - [Niels Tholenaar](https://github.com/nielstholenaar)
+- [PCextreme](https://github.com/pcextreme)
 
 
 ## License
