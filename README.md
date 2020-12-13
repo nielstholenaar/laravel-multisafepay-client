@@ -1,3 +1,7 @@
+# This repository is unmaintained.
+Please use the officially supported client by Multisafepay(https://github.com/MultiSafepay/laravel-api)
+
+
 # Laravel bridge package for the MultiSafepay Client.
 
 [![Build Status](https://travis-ci.org/nielstholenaar/laravel-multisafepay-client.svg?branch=master)](https://travis-ci.org/nielstholenaar/laravel-multisafepay-client) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nielstholenaar/laravel-multisafepay-client/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nielstholenaar/laravel-multisafepay-client/?branch=master)
